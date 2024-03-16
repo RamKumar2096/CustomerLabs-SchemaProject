@@ -110,10 +110,7 @@ function Modal({ onClose }) {
 
     // Send the data to the server using Axios
     axios
-      .post(
-        "https://cors-anywhere.herokuapp.com/https://webhook.site/5803cf0b-268b-4536-bbf8-94e890feeab6",
-        data
-      )
+      .post("https://webhook.site/5803cf0b-268b-4536-bbf8-94e890feeab6", data)
 
       .then((response) => {
         // Handle success
